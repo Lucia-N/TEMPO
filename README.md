@@ -1,0 +1,10 @@
+This is the official Github repository for the project TEMPO: A Novel Hybrid Neuromorphic Framework for Efficient and Interpretable Integration of Multi-Omic High-Dimensional Oncology Data (PI: Lucia Nanda). TEMPO (TEmporal Multi-Omic Platform for Oncology) is a novel ANN-SNN hybrid neural network framework designed to facilitate efficient integration of complex oncology data. Rather than a traditional frontend-backend model, TEMPO implements a fully neuromorphic pipeline with embedded advanced ANN features such as encoders, routers, fusion layers, dissolving the boundaries between the ANN and SNN components. TEMPO also implements a variety of advanced features/techniques designed specifically to target challenges associated with the nature of cancer multiomics (high dimensionality, low sample sizes, missing data, class imbalance, etc), including hybrid context-aware encoding, semantic addressing, differentiable categorial routing, balanced focal learning, and weighted random sampling. More information about this software approach can be found in 'Introduction.ipynb'.
+
+This project used publicly available deidentified data from The Cancer Genome Atlas (TCGA) GBM and PANCAN datasets, accessed from the Xena browser. To repeat Phase 1 experiments in this repository, download: Methylation27k (n=288), Phenotypes (n=629), and IlluminaHiSeq (n=172), then run the preprocessing scripts outlined in 'Introduction.ipynb'. For Phase 2, download: Batch effects normalized mRNA data (n=11,060), RPPA (n=7,744), gene-level copy number (gistic2) (n=10,845), Curated clinical data (n=12,591), and Molecular subtype (n=7,734), and run the corresponding preprocessing scripts. This project primarily used Python for machine learning programming and utilized Colab/Jupyter Notebooks.
+
+Feel free to reach out to luciananda2010@gmail.com with any questions or comments.
+
+
+Xena TCGA GBM: https://xenabrowser.net/datapages/?cohort=TCGA%20Glioblastoma%20(GBM)&removeHub=https%3A%2F%2Fxena.treehouse.gi.ucsc.edu%3A443
+
+Xena TCGA PANCAN: https://xenabrowser.net/datapages/?cohort=TCGA%20Pan-Cancer%20(PANCAN)&removeHub=https%3A%2F%2Fxena.treehouse.gi.ucsc.edu%3A443
