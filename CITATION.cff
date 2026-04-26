@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Nanda"
+  given-names: "Lucia"
+title: "TEMPO"
+version: 1.0.0
+doi: 10.5281/zenodo.19774495
+date-released: 2026-04-25
+url: "https://github.com/Lucia-N/TEMPO"
