@@ -2,7 +2,7 @@ This is the official Github repository for the project TEMPO: A Novel Hybrid Neu
 
 This project used publicly available deidentified data from The Cancer Genome Atlas (TCGA) GBM and PANCAN datasets, accessed from the Xena browser. To repeat developmental Phase 1 experiments in this repository, download: Methylation27k (n=288), Phenotypes (n=629), and IlluminaHiSeq (n=172), then run the preprocessing scripts outlined in 'Introduction.ipynb'. For final Phase 2 experiments, download: Batch effects normalized mRNA data (n=11,060), RPPA (n=7,744), gene-level copy number (gistic2) (n=10,845), Curated clinical data (n=12,591), and Molecular subtype (n=7,734), and run the corresponding preprocessing scripts. This project primarily used Python for machine learning programming and utilized Colab/Jupyter Notebooks.
 
-Development files were developed privately since August 2025 before being uploaded and released publicly on Github.
+Development files were developed privately since August 2025 before being uploaded and released publicly on Github. Currently, a complete TEMPO Python package is being developed which includes the model code, a wrapper, tests, and examples.
 
 Feel free to reach out to luciananda2010@gmail.com with any questions or comments.
 
